@@ -17,7 +17,7 @@ else
 }
 
 $sql= "INSERT INTO tb_1(name,comment)
-VALUES ('handacy', 'my second comment')";
+
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
